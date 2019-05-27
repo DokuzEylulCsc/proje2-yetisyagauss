@@ -1,0 +1,6 @@
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.BLL\bin\Debug\DeuCSC.Proje2.BLL.dll
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.BLL\bin\Debug\DeuCSC.Proje2.BLL.pdb
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.BLL\obj\Debug\DeuCSC.Proje2.BLL.csprojAssemblyReference.cache
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.BLL\obj\Debug\DeuCSC.Proje2.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.BLL\obj\Debug\DeuCSC.Proje2.BLL.dll
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.BLL\obj\Debug\DeuCSC.Proje2.BLL.pdb

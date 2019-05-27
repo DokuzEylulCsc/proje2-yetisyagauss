@@ -1,0 +1,14 @@
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\DeuCSC.Proje2.Console.exe.config
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\DeuCSC.Proje2.Console.exe
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\DeuCSC.Proje2.Console.pdb
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\DeuCSC.Proje2.DAL.dll
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\DeuCSC.Proje2.Entities.dll
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\DeuCSC.Proje2.DAL.pdb
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\DeuCSC.Proje2.Entities.pdb
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\obj\Debug\DeuCSC.Proje2.Console.csprojAssemblyReference.cache
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\obj\Debug\DeuCSC.Proje2.Console.csproj.CoreCompileInputs.cache
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\obj\Debug\DeuCSC.Proje2.Console.csproj.CopyComplete
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\obj\Debug\DeuCSC.Proje2.Console.exe
+C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.Console\obj\Debug\DeuCSC.Proje2.Console.pdb
