@@ -62,8 +62,11 @@
       <Name>DeuCSC.Proje2.Entities</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Data\" />
+    <Content Include="Data\Musteriler.txt" />
+    <Content Include="Data\Odalar.txt" />
+    <Content Include="Data\Oteller.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

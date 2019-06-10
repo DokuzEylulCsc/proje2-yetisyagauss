@@ -7,5 +7,7 @@
         string Adı { get; set; }
         string Soyadı { get; set; }
         byte Yas { get; set; }
+    
+
     }
 }

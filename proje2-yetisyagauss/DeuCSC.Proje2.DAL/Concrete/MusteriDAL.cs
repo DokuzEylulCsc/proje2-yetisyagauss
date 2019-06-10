@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
@@ -7,10 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using DeuCSC.Proje2.Entities.Concrete;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 namespace DeuCSC.Proje2.DAL.Concrete
 {
-    public class MusteriDAL : IMusteri,IPerson
+    public class MusteriDAL : IMusteri
     {
         private List<MusteriDAL> MusteriList;
         public List<int> Rezervasyonlar { get; set; }
@@ -41,18 +41,29 @@ namespace DeuCSC.Proje2.DAL.Concrete
 
             
         }
-        public IMusteri Get(int id)
+        public MusteriDAL Get(int id)
         {
             return MusteriList.Where(x => x.Id == id).FirstOrDefault();
+        }
+        public List<MusteriDAL> GetAll()
+        {
+            ParseMusteriFile();
+            return MusteriList;
         }
         public void Add(MusteriDAL musteri)
         {
             try
             {
                 ParseMusteriFile();
-                MusteriList.Add(musteri);
+                if (MusteriList == null)
+                {
+                    MusteriList=new List<MusteriDAL>();
+                }
+                    
+                    MusteriList.Add(musteri);
                 using (StreamWriter sw = File.CreateText(@"C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.DAL\Data\Musteriler.txt"))
                 {
+                    sw.Flush();
                     JsonSerializer serializer =new JsonSerializer();
                     serializer.Serialize(sw,MusteriList);
                     
@@ -63,15 +74,48 @@ namespace DeuCSC.Proje2.DAL.Concrete
                 Console.WriteLine(e); 
             }
         }
-
-        public void Update()
+        public void Update(MusteriDAL musteri)
         {
+           
+            try
+            {
+                ParseMusteriFile();
+                var result = MusteriList.Where(x => x.Id == musteri.Id).FirstOrDefault();
+                MusteriList.Remove(result);
+                MusteriList.Add(musteri);
+                using (StreamWriter sw = File.CreateText(@"C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.DAL\Data\Musteriler.txt"))
+                {
+                    sw.Flush();
+                    JsonSerializer serializer = new JsonSerializer();
+                    serializer.Serialize(sw, MusteriList);
 
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
-
-        public void Delete()
+        public void Delete(int id)
         {
+            try
+            {
+                ParseMusteriFile();
+                var result = MusteriList.Where(x => x.Id == id).FirstOrDefault();
+                MusteriList.Remove(result);
+               
+                using (StreamWriter sw = File.CreateText(@"C:\Users\Yasin\Documents\GitHub\proje2-yetisyagauss\proje2-yetisyagauss\DeuCSC.Proje2.DAL\Data\Musteriler.txt"))
+                {
+                    sw.Flush();
+                    JsonSerializer serializer = new JsonSerializer();
+                    serializer.Serialize(sw, MusteriList);
 
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
     }
 
