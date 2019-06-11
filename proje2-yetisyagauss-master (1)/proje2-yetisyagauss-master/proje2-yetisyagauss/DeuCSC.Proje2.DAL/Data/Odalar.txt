@@ -1,0 +1,1 @@
+[{"Id":31,"OdaNo":20,"OdaOzellikleri":[],"OdaUcreti":300.0},{"Id":62,"OdaNo":10,"OdaOzellikleri":[],"OdaUcreti":500.0}]
